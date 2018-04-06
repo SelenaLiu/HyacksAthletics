@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7A532596FD5401DC3F5C21 /* Pods_HyacksAthleticsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E313C3B8C44F8CC45157CE /* Pods_HyacksAthleticsTests.framework */; };
+		757E6E3766F9CDDC8173B789 /* Pods_HyacksAthleticsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B67C2C9C2EBC09DDD383C7 /* Pods_HyacksAthleticsUITests.framework */; };
+		F65C96BCF9A08FD932D746EE /* Pods_HyacksAthletics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F98EF50135EF5DE4A6FEC /* Pods_HyacksAthletics.framework */; };
+		FA8702CF20697079008904EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8702CE20697079008904EF /* AppDelegate.swift */; };
+		FA8702D120697079008904EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8702D020697079008904EF /* ViewController.swift */; };
+		FA8702D420697079008904EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8702D220697079008904EF /* Main.storyboard */; };
+		FA8702D620697079008904EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8702D520697079008904EF /* Assets.xcassets */; };
+		FA8702D920697079008904EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8702D720697079008904EF /* LaunchScreen.storyboard */; };
+		FA8702E42069707A008904EF /* HyacksAthleticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8702E32069707A008904EF /* HyacksAthleticsTests.swift */; };
+		FA8702EF2069707A008904EF /* HyacksAthleticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8702EE2069707A008904EF /* HyacksAthleticsUITests.swift */; };
+		FA8702FD206970F4008904EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8702FC206970F4008904EF /* GoogleService-Info.plist */; };
+		FA8702FF20697AC8008904EF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8702FE20697AC8008904EF /* LoginVC.swift */; };
+		FA870302206A0ACB008904EF /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA870301206A0ACB008904EF /* MenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8702E02069707A008904EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8702C320697079008904EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8702CA20697079008904EF;
+			remoteInfo = HyacksAthletics;
+		};
+		FA8702EB2069707A008904EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8702C320697079008904EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8702CA20697079008904EF;
+			remoteInfo = HyacksAthletics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0907DE20FAF381C08449A8EA /* Pods-HyacksAthleticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyacksAthleticsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyacksAthleticsUITests/Pods-HyacksAthleticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C4F98EF50135EF5DE4A6FEC /* Pods_HyacksAthletics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyacksAthletics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260855C7ECF552EFC5CFA466 /* Pods-HyacksAthleticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyacksAthleticsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyacksAthleticsUITests/Pods-HyacksAthleticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51B67C2C9C2EBC09DDD383C7 /* Pods_HyacksAthleticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyacksAthleticsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AA111EEA22214309DD8897 /* Pods-HyacksAthletics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyacksAthletics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyacksAthletics/Pods-HyacksAthletics.debug.xcconfig"; sourceTree = "<group>"; };
+		90B0911BF16C5A0DF6B5CB42 /* Pods-HyacksAthleticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyacksAthleticsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyacksAthleticsTests/Pods-HyacksAthleticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2E313C3B8C44F8CC45157CE /* Pods_HyacksAthleticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyacksAthleticsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34A2431D9893B3C999E90F /* Pods-HyacksAthleticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyacksAthleticsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyacksAthleticsTests/Pods-HyacksAthleticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC4B8ADD7081A466DC60AC33 /* Pods-HyacksAthletics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyacksAthletics.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyacksAthletics/Pods-HyacksAthletics.release.xcconfig"; sourceTree = "<group>"; };
+		FA8702CB20697079008904EF /* HyacksAthletics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyacksAthletics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8702CE20697079008904EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8702D020697079008904EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA8702D320697079008904EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA8702D520697079008904EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8702D820697079008904EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8702DA20697079008904EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8702DF2069707A008904EF /* HyacksAthleticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyacksAthleticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8702E32069707A008904EF /* HyacksAthleticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyacksAthleticsTests.swift; sourceTree = "<group>"; };
+		FA8702E52069707A008904EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8702EA2069707A008904EF /* HyacksAthleticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyacksAthleticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8702EE2069707A008904EF /* HyacksAthleticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyacksAthleticsUITests.swift; sourceTree = "<group>"; };
+		FA8702F02069707A008904EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8702FC206970F4008904EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA8702FE20697AC8008904EF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FA870301206A0ACB008904EF /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8702C820697079008904EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65C96BCF9A08FD932D746EE /* Pods_HyacksAthletics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8702DC2069707A008904EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7A532596FD5401DC3F5C21 /* Pods_HyacksAthleticsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8702E72069707A008904EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757E6E3766F9CDDC8173B789 /* Pods_HyacksAthleticsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7712EDB91612D4115CF0D577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74AA111EEA22214309DD8897 /* Pods-HyacksAthletics.debug.xcconfig */,
+				DC4B8ADD7081A466DC60AC33 /* Pods-HyacksAthletics.release.xcconfig */,
+				90B0911BF16C5A0DF6B5CB42 /* Pods-HyacksAthleticsTests.debug.xcconfig */,
+				AD34A2431D9893B3C999E90F /* Pods-HyacksAthleticsTests.release.xcconfig */,
+				260855C7ECF552EFC5CFA466 /* Pods-HyacksAthleticsUITests.debug.xcconfig */,
+				0907DE20FAF381C08449A8EA /* Pods-HyacksAthleticsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C4652CA59E07EEA20438A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F98EF50135EF5DE4A6FEC /* Pods_HyacksAthletics.framework */,
+				A2E313C3B8C44F8CC45157CE /* Pods_HyacksAthleticsTests.framework */,
+				51B67C2C9C2EBC09DDD383C7 /* Pods_HyacksAthleticsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8702C220697079008904EF = {
+			isa = PBXGroup;
+			children = (
+				FA8702CD20697079008904EF /* HyacksAthletics */,
+				FA8702E22069707A008904EF /* HyacksAthleticsTests */,
+				FA8702ED2069707A008904EF /* HyacksAthleticsUITests */,
+				FA8702CC20697079008904EF /* Products */,
+				7712EDB91612D4115CF0D577 /* Pods */,
+				7C4652CA59E07EEA20438A0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8702CC20697079008904EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8702CB20697079008904EF /* HyacksAthletics.app */,
+				FA8702DF2069707A008904EF /* HyacksAthleticsTests.xctest */,
+				FA8702EA2069707A008904EF /* HyacksAthleticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8702CD20697079008904EF /* HyacksAthletics */ = {
+			isa = PBXGroup;
+			children = (
+				FA8702CE20697079008904EF /* AppDelegate.swift */,
+				FA8702FE20697AC8008904EF /* LoginVC.swift */,
+				FA8702D020697079008904EF /* ViewController.swift */,
+				FA870301206A0ACB008904EF /* MenuController.swift */,
+				FA8702D220697079008904EF /* Main.storyboard */,
+				FA8702D520697079008904EF /* Assets.xcassets */,
+				FA8702D720697079008904EF /* LaunchScreen.storyboard */,
+				FA8702DA20697079008904EF /* Info.plist */,
+				FA8702FC206970F4008904EF /* GoogleService-Info.plist */,
+				FA87030020697ADC008904EF /* Helping Files */,
+			);
+			path = HyacksAthletics;
+			sourceTree = "<group>";
+		};
+		FA8702E22069707A008904EF /* HyacksAthleticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8702E32069707A008904EF /* HyacksAthleticsTests.swift */,
+				FA8702E52069707A008904EF /* Info.plist */,
+			);
+			path = HyacksAthleticsTests;
+			sourceTree = "<group>";
+		};
+		FA8702ED2069707A008904EF /* HyacksAthleticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8702EE2069707A008904EF /* HyacksAthleticsUITests.swift */,
+				FA8702F02069707A008904EF /* Info.plist */,
+			);
+			path = HyacksAthleticsUITests;
+			sourceTree = "<group>";
+		};
+		FA87030020697ADC008904EF /* Helping Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helping Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8702CA20697079008904EF /* HyacksAthletics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8702F32069707A008904EF /* Build configuration list for PBXNativeTarget "HyacksAthletics" */;
+			buildPhases = (
+				31D59A56247D70D43EB6CB93 /* [CP] Check Pods Manifest.lock */,
+				FA8702C720697079008904EF /* Sources */,
+				FA8702C820697079008904EF /* Frameworks */,
+				FA8702C920697079008904EF /* Resources */,
+				0A11C15E029375A4647BBA7F /* [CP] Embed Pods Frameworks */,
+				B74D02D337AA182925A317B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyacksAthletics;
+			productName = HyacksAthletics;
+			productReference = FA8702CB20697079008904EF /* HyacksAthletics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8702DE2069707A008904EF /* HyacksAthleticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8702F62069707A008904EF /* Build configuration list for PBXNativeTarget "HyacksAthleticsTests" */;
+			buildPhases = (
+				7A4149463995BCF97D105AA2 /* [CP] Check Pods Manifest.lock */,
+				FA8702DB2069707A008904EF /* Sources */,
+				FA8702DC2069707A008904EF /* Frameworks */,
+				FA8702DD2069707A008904EF /* Resources */,
+				E72C8C2AB49705CE9526FB3D /* [CP] Embed Pods Frameworks */,
+				AA9F0B2B4C98FA3E6AEAEEFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8702E12069707A008904EF /* PBXTargetDependency */,
+			);
+			name = HyacksAthleticsTests;
+			productName = HyacksAthleticsTests;
+			productReference = FA8702DF2069707A008904EF /* HyacksAthleticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8702E92069707A008904EF /* HyacksAthleticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8702F92069707A008904EF /* Build configuration list for PBXNativeTarget "HyacksAthleticsUITests" */;
+			buildPhases = (
+				F0B0239B423718B4992011BD /* [CP] Check Pods Manifest.lock */,
+				FA8702E62069707A008904EF /* Sources */,
+				FA8702E72069707A008904EF /* Frameworks */,
+				FA8702E82069707A008904EF /* Resources */,
+				1DFD1C2EFFD25B570AD90704 /* [CP] Embed Pods Frameworks */,
+				8ABB1EC6B8ACCBC8697ECA2B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8702EC2069707A008904EF /* PBXTargetDependency */,
+			);
+			name = HyacksAthleticsUITests;
+			productName = HyacksAthleticsUITests;
+			productReference = FA8702EA2069707A008904EF /* HyacksAthleticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8702C320697079008904EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Selena Liu";
+				TargetAttributes = {
+					FA8702CA20697079008904EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FA8702DE2069707A008904EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA8702CA20697079008904EF;
+					};
+					FA8702E92069707A008904EF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA8702CA20697079008904EF;
+					};
+				};
+			};
+			buildConfigurationList = FA8702C620697079008904EF /* Build configuration list for PBXProject "HyacksAthletics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8702C220697079008904EF;
+			productRefGroup = FA8702CC20697079008904EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8702CA20697079008904EF /* HyacksAthletics */,
+				FA8702DE2069707A008904EF /* HyacksAthleticsTests */,
+				FA8702E92069707A008904EF /* HyacksAthleticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8702C920697079008904EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8702D920697079008904EF /* LaunchScreen.storyboard in Resources */,
+				FA8702D620697079008904EF /* Assets.xcassets in Resources */,
+				FA8702D420697079008904EF /* Main.storyboard in Resources */,
+				FA8702FD206970F4008904EF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8702DD2069707A008904EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8702E82069707A008904EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A11C15E029375A4647BBA7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthletics/Pods-HyacksAthletics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthletics/Pods-HyacksAthletics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DFD1C2EFFD25B570AD90704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthleticsUITests/Pods-HyacksAthleticsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31D59A56247D70D43EB6CB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyacksAthletics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4149463995BCF97D105AA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyacksAthleticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABB1EC6B8ACCBC8697ECA2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthleticsUITests/Pods-HyacksAthleticsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9F0B2B4C98FA3E6AEAEEFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthleticsTests/Pods-HyacksAthleticsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74D02D337AA182925A317B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthletics/Pods-HyacksAthletics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72C8C2AB49705CE9526FB3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyacksAthleticsTests/Pods-HyacksAthleticsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B0239B423718B4992011BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyacksAthleticsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8702C720697079008904EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA870302206A0ACB008904EF /* MenuController.swift in Sources */,
+				FA8702D120697079008904EF /* ViewController.swift in Sources */,
+				FA8702CF20697079008904EF /* AppDelegate.swift in Sources */,
+				FA8702FF20697AC8008904EF /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8702DB2069707A008904EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8702E42069707A008904EF /* HyacksAthleticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8702E62069707A008904EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8702EF2069707A008904EF /* HyacksAthleticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8702E12069707A008904EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8702CA20697079008904EF /* HyacksAthletics */;
+			targetProxy = FA8702E02069707A008904EF /* PBXContainerItemProxy */;
+		};
+		FA8702EC2069707A008904EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8702CA20697079008904EF /* HyacksAthletics */;
+			targetProxy = FA8702EB2069707A008904EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA8702D220697079008904EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8702D320697079008904EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8702D720697079008904EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8702D820697079008904EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8702F12069707A008904EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8702F22069707A008904EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8702F42069707A008904EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AA111EEA22214309DD8897 /* Pods-HyacksAthletics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyacksAthletics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selenaliu.HyacksAthletics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8702F52069707A008904EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4B8ADD7081A466DC60AC33 /* Pods-HyacksAthletics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyacksAthletics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selenaliu.HyacksAthletics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA8702F72069707A008904EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B0911BF16C5A0DF6B5CB42 /* Pods-HyacksAthleticsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyacksAthleticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selenaliu.HyacksAthleticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyacksAthletics.app/HyacksAthletics";
+			};
+			name = Debug;
+		};
+		FA8702F82069707A008904EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD34A2431D9893B3C999E90F /* Pods-HyacksAthleticsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyacksAthleticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selenaliu.HyacksAthleticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyacksAthletics.app/HyacksAthletics";
+			};
+			name = Release;
+		};
+		FA8702FA2069707A008904EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260855C7ECF552EFC5CFA466 /* Pods-HyacksAthleticsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyacksAthleticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selenaliu.HyacksAthleticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HyacksAthletics;
+			};
+			name = Debug;
+		};
+		FA8702FB2069707A008904EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0907DE20FAF381C08449A8EA /* Pods-HyacksAthleticsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HyacksAthleticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selenaliu.HyacksAthleticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HyacksAthletics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8702C620697079008904EF /* Build configuration list for PBXProject "HyacksAthletics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8702F12069707A008904EF /* Debug */,
+				FA8702F22069707A008904EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8702F32069707A008904EF /* Build configuration list for PBXNativeTarget "HyacksAthletics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8702F42069707A008904EF /* Debug */,
+				FA8702F52069707A008904EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8702F62069707A008904EF /* Build configuration list for PBXNativeTarget "HyacksAthleticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8702F72069707A008904EF /* Debug */,
+				FA8702F82069707A008904EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8702F92069707A008904EF /* Build configuration list for PBXNativeTarget "HyacksAthleticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8702FA2069707A008904EF /* Debug */,
+				FA8702FB2069707A008904EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8702C320697079008904EF /* Project object */;
+}
